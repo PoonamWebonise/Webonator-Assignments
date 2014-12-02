@@ -63,7 +63,7 @@ a {
 	color:grey;
 }
 
-#firstHalf {
+#gallery {
 	
 	background-image:url("../images/background.png");
 	margin-bottom: 64px;
@@ -122,7 +122,7 @@ h3 {
 
 }
 
-.secondText {
+.howItWorks {
 		text-align:center;
 		margin-bottom: 100px;
 }
@@ -141,20 +141,20 @@ h3 {
 .circles img {
 	padding:40px 50px 0px 50px;
 }
-#secondHalf ul {
+#content ul {
 	padding: 0px 50px;
 	float: left;
 	list-style-type: none;
 
 }
-#secondHalf li {
+#content li {
 		width: 175px;
 		float: left;
 		margin-left: 20px;
 
 }
 
-#secondHalf ul li p{
+#content ul li p{
 	margin-top: 40px;
 }
 .copyright {
