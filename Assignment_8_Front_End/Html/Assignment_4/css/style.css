@@ -1,0 +1,235 @@
+/*Default Reset CSS*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.clear {
+	clear: both;
+	float:none;
+	width: 0;
+	height: 0;
+	border: 0;
+	padding: 0;
+}
+.wrapper {
+	width:940px;
+	margin:auto;
+}
+
+#navigation {
+	color:red;
+	font-size:14px;
+	font-weight:bold;
+}
+.ramojiLogo{
+	float:left;
+	margin-right:300px;
+}
+.navigationList {
+	float:left;
+}
+
+.navigationList li{
+	float:left;
+	display:block;
+	line-height:55px;
+	margin-right:26px;
+}
+
+.navigationIcons {
+	float:right;
+}
+
+.navigationIcons li{
+	float:left;
+	display:block;
+	margin-left:5px;
+	line-height:55px;
+}
+
+#weddingGallery {
+	background-color:black;
+	background-image:url("../images/grandWeddingWallpaper.png");
+	background-repeat: no-repeat;
+}
+
+.grandWeddingText {
+	color:white;
+	/*margin-top:441px;*/
+	/*margin-bottom:30px;*/
+}
+h1{
+	font-size:44px;
+	font-weight:regular;
+	padding-top:441px; 
+}
+
+h2 {
+	font-size:22px;
+	padding-bottom:30px; 
+}
+
+#eventOptions {
+	background-color:red;
+	color:white;
+}
+#eventOptions ul {
+	float:left;
+}
+
+#eventOptions li{
+	float:left;
+	width:120px;
+	height:56px;
+	border-radius:5px;
+	border-style: solid;
+    border-width: 1px;
+	margin-right:20px;
+	line-height:100px;
+
+}
+
+h3 {
+	margin-top:67px;
+	margin-bottom:15px;
+	font-size:40px;
+	color:red;
+}
+#eventGallery ul {
+	float:left;
+}
+
+#eventGallery li{
+	float:left;
+	margin-right:10px;
+	width:300px;
+	/*height:320px;*/
+	background-color:black;
+} 
+
+.eventGalleryText
+{
+	
+	color:white;
+	font-size:14px;
+}
+
+h4 {
+	font-size;20px;
+	padding-top: 20px;
+}
+
+h5{
+	font-size: 23px;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+p{
+	padding-bottom: 20px;
+}
+
+#eventInformation {
+	background-color: #444444;
+	font-size: 14px;
+	padding-top: 28px;
+	padding-bottom: 131px;
+}
+
+.thingsToDo {
+	float: left;
+}
+
+.thingsToDo li{
+	width: 162px;
+	list-style-type: none;
+}
+
+.placesToStay {
+	float: left;
+}
+
+.placesToStay li {
+	width: 162px;
+	list-style-type: none;
+}
+
+.corporates {
+	float: left;
+}
+
+.corporates li {
+	width: 162px;
+	list-style-type: none;
+}
+
+.weddings {
+	float: left;
+}
+
+.weddings li {
+	width: 162px;
+	list-style-type: none;
+}
+
+.bookings {
+	float:left;
+}
+
+.bookings li {
+	width: 162px;
+	list-style-type: none;
+}
+
+.eventOptions {
+	float: left;
+}
+
+.eventOptions li {
+	width: 162px;
+	list-style-type: none;
+}
+
+.eventOffers {
+	float: left;
+}
+
+.eventOffers li {
+	width: 162px;
+	list-style-type: none;
+}
+
+.eventServices {
+	float: left;
+}
+
+.eventServices li {
+	width: 162px;
+	list-style-type: none;
+}
+
+.footerNavigation {
+	float:left;
+}
+
+.footerNavigation li {
+	float: left;
+	list-style-type: none;
+}
