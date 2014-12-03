@@ -105,6 +105,10 @@ h2 {
 	line-height:100px;
 
 }
+#eventOptions ul li img{
+	/*float:right;*/
+	margin-left: 49px;
+}
 
 h3 {
 	margin-top:67px;
@@ -122,6 +126,7 @@ h3 {
 	width:300px;
 	/*height:320px;*/
 	background-color:black;
+	margin-bottom: 70px;
 } 
 
 .eventGalleryText
@@ -151,6 +156,7 @@ p{
 	font-size: 14px;
 	padding-top: 28px;
 	padding-bottom: 131px;
+	color:white;
 }
 
 .thingsToDo {
@@ -227,9 +233,20 @@ p{
 
 .footerNavigation {
 	float:left;
+	margin-left: 195px;
 }
 
 .footerNavigation li {
 	float: left;
 	list-style-type: none;
+	border-right: 1px solid #000000;
+	line-height: 14px;
+	margin-top: 50px
+}
+
+.footerNavigation li a{
+	margin: 0px 10px 0px 10px;
+}
+.copyright {
+	margin-left: 340px;
 }
