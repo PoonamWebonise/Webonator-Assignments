@@ -28,6 +28,7 @@ time, mark, audio, video {
 	border: 0;
 	padding: 0;
 }
+
 .wrapper {
 	width:940px;
 	margin:auto;
@@ -37,11 +38,15 @@ time, mark, audio, video {
 	color:red;
 	font-size:14px;
 	font-weight:bold;
+	font-family: Arial,Helvetica,sans-serif;
+	/*padding: 2px 0px 2px 0px;*/
 }
+
 .ramojiLogo{
 	float:left;
 	margin-right:300px;
 }
+
 .navigationList {
 	float:left;
 }
@@ -49,41 +54,94 @@ time, mark, audio, video {
 .navigationList li{
 	float:left;
 	display:block;
-	line-height:55px;
+	line-height:31px;
 	margin-right:26px;
 }
 
 .navigationIcons {
 	float:right;
 }
+.navigationWrapper {
+	padding-top: 10px;
+}
 
+#navigation a{
+	text-decoration: none;
+	color: red;
+}
+#navigation a:hover{
+	color:black;
+}
 .navigationIcons li{
 	float:left;
-	display:block;
 	margin-left:5px;
-	line-height:55px;
+	height:24px;
+	width:24px;
+	border-radius: 15px;
+	background-color: red;
+	list-style-type: none;
+}
+.navigationIcons li:hover{
+	background-color:blue; 
+}
+.navigationIcons  a{
+	display: block;
+	height: 24px;
 }
 
-#weddingGallery {
-	background-color:black;
+.facebookLogo{
+	background: url("../images/facebook_logo.png") no-repeat center top 5px; 
+}	
+
+.twitterLogo{
+	background:url("../images/twitter_logo.png") no-repeat center top 5px; 
+}	
+
+.pintrestLogo{
+	background:url("../images/pinterest_logo.png") no-repeat center top 5px; 
+}	
+
+.googlePlusLogo{
+	background:url("../images/google_logo.png") no-repeat center top 5px; 
+}	
+
+
+
+#banner {
+	background-color: #000000;
+	font-family: Arial,Helvetica,sans-serif;
+	color: white;
+}
+
+.bannerImage {
 	background-image:url("../images/grandWeddingWallpaper.png");
-	background-repeat: no-repeat;
+	height:545px;
+	position: relative;
 }
 
-.grandWeddingText {
+.bannerText {
 	color:white;
-	/*margin-top:441px;*/
-	/*margin-bottom:30px;*/
+	position: absolute;
+	bottom: 30px;
 }
+
 h1{
 	font-size:44px;
 	font-weight:regular;
-	padding-top:441px; 
 }
 
-h2 {
+#banner p{
 	font-size:22px;
-	padding-bottom:30px; 
+}
+
+
+#eventOptions a{
+	text-decoration: none;
+	color: white;
+}
+
+#eventOptions a:hover{
+	color:black;
 }
 
 #eventOptions {
@@ -91,170 +149,151 @@ h2 {
 	color:white;
 	padding-top: 19px;
 	padding-bottom: 19px;
-
 }
+
 #eventOptions ul {
 	float:left;
 }
 
 #eventOptions li{
 	float:left;
-	width:120px;
-	height:56px;
+	width:210px;
 	border-radius:5px;
 	border-style: solid;
-    border-width: 1px;
+    border-width: 2px;
 	margin-right:20px;
-	line-height:100px;
 	list-style-type: none;
+	background:url("../images/dropDownArrow.png") no-repeat right 10px center;
 
 }
-#eventOptions u li a{
-	float: left;
-	line-height: 56px;
+
+#eventOptions ul li a{
+	display: block;
+	padding: 20px 20px 20px 20px;
 }
+
 #eventOptions ul li img{
 	float:right;
-	margin-left: 49px;
 }
 
-h3 {
-	margin-top:67px;
-	margin-bottom:15px;
+
+#eventGallery {
+	margin-bottom: 70px;
+}
+h2 {
 	font-size:40px;
 	color:red;
+	margin: 67px 0px 15px 0px;
 }
 #eventGallery ul {
 	float:left;
 }
-
 #eventGallery li{
 	float:left;
-	margin-right:10px;
+	margin-left:20px;
 	width:300px;
-	/*height:320px;*/
 	background-color:black;
-	margin-bottom: 70px;
+	list-style-type: none;
 } 
-
-.eventGalleryText
+#eventGallery ul li:first-child {
+	margin-left:0px;
+}
+.text
 {
-	
+	padding:10px 10px 10px 10px;
 	color:white;
 	font-size:14px;
 }
-
-h4 {
-	font-size;20px;
-	padding-top: 20px;
+#eventGallery p{
+	padding-bottom: 20px;
+	font-size: 14px;
 }
-
-h5{
-	font-size: 23px;
+#eventGallery span {
+	font-size: 14px;
 	font-weight: bold;
-	padding-bottom: 20px;
+}
+#eventGallery h1{
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
 }
 
-p{
-	padding-bottom: 20px;
-}
 
 #eventInformation {
 	background-color: #444444;
-	font-size: 14px;
 	padding-top: 28px;
 	padding-bottom: 131px;
 	color:white;
+	font-family: Arial,Helvetica,sans-serif;
 }
 
-.thingsToDo {
+h6 {
+	font-size: 14px;
+}
+
+.lists{
 	float: left;
-}
-
-.thingsToDo li{
-	width: 162px;
-	list-style-type: none;
-}
-
-.placesToStay {
-	float: left;
-}
-
-.placesToStay li {
-	width: 162px;
-	list-style-type: none;
-}
-
-.corporates {
-	float: left;
-}
-
-.corporates li {
-	width: 162px;
-	list-style-type: none;
-}
-
-.weddings {
-	float: left;
-}
-
-.weddings li {
-	width: 162px;
-	list-style-type: none;
-}
-
-.bookings {
-	float:left;
-}
-
-.bookings li {
-	width: 162px;
-	list-style-type: none;
-}
-
-.eventOptions {
-	float: left;
-}
-
-.eventOptions li {
-	width: 162px;
-	list-style-type: none;
-}
-
-.eventOffers {
-	float: left;
-}
-
-.eventOffers li {
-	width: 162px;
-	list-style-type: none;
-}
-
-.eventServices {
-	float: left;
-}
-
-.eventServices li {
-	width: 162px;
-	list-style-type: none;
-}
-
-.footerNavigation {
-	float:left;
-	margin-left: 195px;
-}
-
-.footerNavigation li {
-	float: left;
-	list-style-type: none;
-	border-right: 1px solid #000000;
+	font-size: 14px;
 	line-height: 14px;
-	margin-top: 50px
 }
 
-.footerNavigation li a{
+.upperList {
+	margin-bottom: 26px;
+	margin-top: 14px;
+}
+
+.lowerList{
+	font-weight: bold;
+}
+
+.lists li {
+	width: 162px;
+	list-style-type: none;
+	margin-right: 10px;
+}
+
+.eventList {
+	padding-bottom: 28px;
+	border-bottom:1px solid;
+	margin-bottom: 20px; 
+}
+
+.eventNavigationList {
+	float:left;
+	margin-bottom: 13px;
+}
+
+.eventNavigationList li {
+	float: left;
+	list-style-type: none;
+	border-left: 1px solid;
+	line-height: 14px;
+}
+
+.eventNavigationList li a{
 	margin: 0px 10px 0px 10px;
 }
-.copyright {
-	margin-left: 340px;
+
+.eventNavigationList li:first-child{
+	border-left: 0px;
+}
+
+.eventNavigation{
+	width: 600px;
+	margin: auto;
+	font-size: 12px;
+}
+
+.eventNavigation span{
+	display: block;
+	text-align: center;
+}
+
+#eventInformation a{
+	text-decoration: none;
+	color: white;
+}
+
+#eventInformation a:hover{
+	color:black;
 }
