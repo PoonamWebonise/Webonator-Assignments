@@ -89,6 +89,9 @@ h2 {
 #eventOptions {
 	background-color:red;
 	color:white;
+	padding-top: 19px;
+	padding-bottom: 19px;
+
 }
 #eventOptions ul {
 	float:left;
@@ -103,10 +106,15 @@ h2 {
     border-width: 1px;
 	margin-right:20px;
 	line-height:100px;
+	list-style-type: none;
 
 }
+#eventOptions u li a{
+	float: left;
+	line-height: 56px;
+}
 #eventOptions ul li img{
-	/*float:right;*/
+	float:right;
 	margin-left: 49px;
 }
 
