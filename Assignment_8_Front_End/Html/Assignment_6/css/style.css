@@ -77,13 +77,15 @@ time, mark, audio, video {
 
 .phoneIcon span {
 	margin: 16px 20px 16px 0px;
+	float: right;
+	display: block;
+}
+.phoneIcon {
 	background: no-repeat url("../images/call_icon.png");
 	height: 15px;
 	width: 15px;
 	float: right;
-	display: block;
 }
-
 .login {
 	margin: 11px 0px 4px 0px;
 	height: 29px;
@@ -95,6 +97,7 @@ time, mark, audio, video {
 
 #banner {
 	box-shadow:0px 2px 2px 2px #f1f1f1 inset;
+	padding-bottom: 185px;
 }
 .bannerContent {
 	background: url("../images/banner_image.png") center top;
@@ -110,14 +113,6 @@ time, mark, audio, video {
 	top:40px;
 	left: 70px;
 }
-#banner .wrapper {
-	/* border-bottom: 1px solid #000000; */
-	/* box-shadow:2px 2px 2px 2px #000000; */
-}
-
-/*#bannerList {
-	position: relative;
-}*/
 .bannerListItems{
 	float: left;
 	position: absolute;
@@ -144,13 +139,9 @@ time, mark, audio, video {
 
 .buttons li {
 	float: left;
-	/* height: 50px; */
 	background-color:#ee7700;
 	border-radius: 5px;
-	/* padding: 0px 20px 0px 20px; */
-	/* width: 160px; */
 	list-style-type: none;
-	/* line-height: 50px; */
 	padding:15px 29px 16px 28px;
 	font-size:16px;
 }
@@ -158,18 +149,17 @@ time, mark, audio, video {
 	background:no-repeat url("../images/home_icon.png");
 	height:20px;
 	width:20px;
-	margin-right:13px;
+	float: left;
 }
 
 .vehicle {
 	background:no-repeat url("../images/vehicle_icon.png");
 	height:20px;
 	width:20px;
-	margin-right:13px;
 }
 .buttons {
 	position: relative;
-	top:186px;
+	top:210px;
 	left:230px;
 }
 
@@ -185,19 +175,21 @@ time, mark, audio, video {
 	margin:0px 25px 0px 25px;
 }
 
-.contentData {
-	float:left;
+#content {
+	background-color:#f5f5f5;
 }
 
-.contentData li{
-	float:left;
+#content .wrapper {
+	padding: 95px 0px 328px 0px;
 }
-
 a.leftSlider{
 	display:block;
 	background:no-repeat url("../images/leftSlider.png");
 	height:50px;
 	width:26px;
+	float: left;
+	margin-top: 128px;
+	margin-right: 40px;
 }
 
 a.rightSlider {
@@ -205,23 +197,106 @@ a.rightSlider {
 	background:no-repeat url("../images/rightSlider.png");
 	height:50px;
 	width:26px;
+	float: right;
+	margin-top: 128px;
 }
-.circle {
+.circle li{
 	height:10px;
 	width:10px;
 	border-radius:10px;
 	background-color:#bbbbbb;
-	display:block;
+	float: left;
+	margin-left: 7px;
+	list-style-type: none;
 }
 
-.contentList {
-	float:left;
+.circle {
+	float: left;
+	padding: 0px 447px 0px 442px;
 }
-.contentList li {
+#content .circle li.active{
+	background-color: #ee7700;
+}
+
+#content h2{
+	font-size: 36px;
+	margin:67px 214px 0px 215px;
+}
+
+.contentData img{
+	box-shadow: 2px 2px 2px 2px #e9e9e9;
+}
+.contentlist {
+	float:left;
+	list-style-type: none;
+}
+.contentlist li {
 	width:208px;
 	float:left;
+	margin-left: 27px;
 }
 
-.contentList li span {
+.contentlist li span {
 	font-size:12px;
+	display: block;
+}
+
+.contentlist p{
+	text-align: center;
+	font-size: 12px;
+}
+.contentlist a{
+	text-decoration: none;
+	color: #000000;
+}
+
+.contentlist li img{
+	padding: 40px 69px 40px 69px;
+}
+
+#footer {
+	background-color: #444444;
+	padding: 99px 0px 38px 0px;
+	position: relative;
+}
+
+.copyright {
+	text-align: center;
+	color: #888;
+	margin-top: 99px;
+}
+
+.guestInfo {
+	width: 711px;
+	margin: auto;
+	background-color: #fff;
+	padding: 40px 0px 52px 50px;
+	position: absolute;
+	top: -370px;
+	left: 90px;
+}
+
+.guestInfo input[type="text"]{
+	border: 1px solid #bbb;
+	border-top: none;
+	margin: 0px 20px 39px 0px;
+	float: left;
+	width: 300px;
+	padding-left:10px;
+}
+
+.guestInfo p{
+	font-size: 24px;
+	margin:auto;
+	margin-bottom: 48px;
+	width: 575px;
+
+}
+
+.guestInfo input[type="submit"]{
+	background-color: #88bb33;
+	height: 29px;
+	width:74px;
+	border-radius: 5px;
+	float: left;
 }
