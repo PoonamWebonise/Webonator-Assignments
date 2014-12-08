@@ -42,12 +42,12 @@ time, mark, audio, video {
 	width: 160px;
 	float: left;
 	margin: 4px 30px 6px 9px;
-
 }
 
 #navigation{
 	font-size: 14px;
 	font-family: Arial,Helvetica,sans-serif;
+	box-shadow:0px 1px 2px 1px #eaeaea;
 }
 
 .navigationList {
@@ -76,28 +76,49 @@ time, mark, audio, video {
 }
 
 .phoneIcon span {
-	margin: 16px 20px 16px 0px;
+	margin: 17px 20px 10px 0px;
 	float: right;
 	display: block;
+	text-align: right;
+	width: 127px;
 }
 .phoneIcon {
-	background: no-repeat url("../images/call_icon.png");
-	height: 15px;
-	width: 15px;
+	background: no-repeat url("../images/call_icon.png") left 23px center;
 	float: right;
 }
+.phoneIcon:hover{
+	color: #f58e23;
+}
 .login {
-	margin: 11px 0px 4px 0px;
+	margin: 7px 0px 4px 0px;
 	height: 29px;
 	width: 64px;
 	border-radius: 5px;
 	float: right;
 	background-color: #88bb33;
+	text-align: center;
+	line-height: 26px;
+	display: block;
 }
 
+a.login{
+	text-decoration: none;
+	color: #fff;
+}
+a.login:hover{
+	color: #f58e23;
+}
 #banner {
-	box-shadow:0px 2px 2px 2px #f1f1f1 inset;
-	padding-bottom: 185px;
+	/*padding-bottom: 185px;*/
+	box-shadow:0px 1px 5px 1px #e3d9d0;
+	position: relative;
+}
+.bannerBorder {
+	width: 630px;
+	border: 3px solid;
+	position: absolute;
+	top:317px;
+	left:165px;
 }
 .bannerContent {
 	background: url("../images/banner_image.png") center top;
@@ -113,18 +134,22 @@ time, mark, audio, video {
 	top:40px;
 	left: 70px;
 }
+
+#bannerData {
+	height: 175px;
+}
 .bannerListItems{
 	float: left;
 	position: absolute;
-	top:270px;
-	left: 110px;
+	top:-44px;
+	left: 22px;
 }
 .bannerListItems li{
 	float: left;
 	width: 124px;
-	margin-left: 66px;
+	margin-left: 60px;
+	margin-right: 45px;
 	list-style-type: none;
-
 }
 
 .bannerListItems span {
@@ -137,44 +162,51 @@ time, mark, audio, video {
 	color: #888;
 }
 
-.buttons li {
-	float: left;
-	background-color:#ee7700;
-	border-radius: 5px;
-	list-style-type: none;
-	padding:15px 29px 16px 28px;
-	font-size:16px;
+.buttons {
+	position: relative;
+	top:150px;
+	left:230px;
 }
+
 .home {
-	background:no-repeat url("../images/home_icon.png");
-	height:20px;
-	width:20px;
-	float: left;
+	border-radius: 5px;
+	font-size:16px;
+	background:no-repeat url("../images/home_icon.png") left 28px center;
+	padding: 16px 0px 16px 60px;
+	background-color:#ee7700;
+	display: block;
+	width: 140px;
 }
 
 .vehicle {
-	background:no-repeat url("../images/vehicle_icon.png");
-	height:20px;
-	width:20px;
+	border-radius: 5px;
+	font-size:16px;
+	background:no-repeat url("../images/vehicle_icon.png") left 28px center;
+	padding: 16px 0px 16px 60px;
+	background-color:#ee7700;
+	display: block;
+	width: 140px;
 }
-.buttons {
-	position: relative;
-	top:210px;
-	left:230px;
+
+.orCircle span{
+	height:30px;
+	width:30px;
+	border-radius: 20px;
+	background-color: #bbbbbb;
+	display: block;
 }
+
 
 .buttons a{
 	text-decoration:none;
 	color:#ffffff;
 }
-#bannerButtons .buttons li.circle{
-	height:30px;
-	width:15px;
-	border-radius:30px;
-	background-color:#bbbbbb;
-	margin:0px 25px 0px 25px;
+a.home:hover{
+	color:#000;
 }
-
+a.vehicle:hover{
+	color:#000;
+}
 #content {
 	background-color:#f5f5f5;
 }
