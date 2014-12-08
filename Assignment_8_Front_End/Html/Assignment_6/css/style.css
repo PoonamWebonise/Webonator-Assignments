@@ -109,7 +109,6 @@ a.login:hover{
 	color: #f58e23;
 }
 #banner {
-	/*padding-bottom: 185px;*/
 	box-shadow:0px 1px 5px 1px #e3d9d0;
 	position: relative;
 }
@@ -150,6 +149,9 @@ a.login:hover{
 	margin-left: 60px;
 	margin-right: 45px;
 	list-style-type: none;
+	font-size: 16px;
+	font-style: italic;
+	font-style: bold;
 }
 
 .bannerListItems span {
@@ -257,6 +259,7 @@ a.rightSlider {
 }
 
 #content h2{
+	font-weight: normal;
 	font-size: 36px;
 	margin:67px 214px 0px 215px;
 }
