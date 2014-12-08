@@ -39,30 +39,29 @@ time, mark, audio, video {
 	font-size:14px;
 	font-weight:bold;
 	font-family: Arial,Helvetica,sans-serif;
-	/*padding: 2px 0px 2px 0px;*/
+	padding: 6px 0px 4px 0px;
 }
 
-.ramojiLogo{
-	float:left;
-	margin-right:300px;
+a.ramojiLogo{
+	float: left;
+	background-image:url("../images/ramojiLogo.png");
+	width: 120px;
+	height: 45px;
 }
-
 .navigationList {
-	float:left;
+	float:right;
+	margin: 17px 11px 18px 0px;
 }
 
 .navigationList li{
 	float:left;
 	display:block;
-	line-height:31px;
 	margin-right:26px;
 }
 
 .navigationIcons {
 	float:right;
-}
-.navigationWrapper {
-	padding-top: 10px;
+	margin: 10px 0px 11px 0px;
 }
 
 #navigation a{
@@ -86,7 +85,6 @@ time, mark, audio, video {
 }
 .navigationIcons  a{
 	display: block;
-	height: 24px;
 }
 
 .facebookLogo{
