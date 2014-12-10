@@ -1,0 +1,48 @@
+import java.util.Scanner;
+
+
+public class PolygonTest {
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Polygon polygon=new Shape();
+		polygon.perimeterOfPolygons();
+		polygon.additionOfAngles();
+	}
+}
+	abstract class Polygon {
+		abstract void perimeterOfPolygons();
+		
+		abstract void additionOfAngles();
+		
+	}
+	
+	class Shape extends Polygon {
+		
+		int noOfDimension;
+		Scanner scanner=new Scanner(System.in);
+		noOfDimension=scanner.nextInt();
+		void perimeterOfPolygons() {
+		// TODO Auto-generated method stub
+		int perimeter=0;		
+		for(int i=1;i<=noOfDimension;i++)
+		{
+			System.out.println("Enter "+i+" side of Polygon: ");
+			Scanner scanner=new Scanner(System.in);
+			int valueOfSide=scanner.nextInt();
+			perimeter=perimeter+valueOfSide;
+		}
+		System.out.println("Perimeter is:"+perimeter);
+	}
+
+	@Override
+	void additionOfAngles() {
+		// TODO Auto-generated method stub
+		int additionOfAngle=((noOfDimension-2)*180);
+		System.out.println("Addition of Angles of Polygon is: "+additionOfAngle);
+	}
+	
+}
