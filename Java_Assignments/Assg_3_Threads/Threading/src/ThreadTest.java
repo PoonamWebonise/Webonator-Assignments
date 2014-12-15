@@ -47,14 +47,14 @@ class Philosopher implements Runnable {
 	}
 	@Override
 	public void run() {
-		System.out.println(this.id+" Thread Started");
+//		System.out.println(this.id+" Thread Started");
 		try {
 			while(true)
 			{
 				this.havingFood();
-				Thread.sleep(1000);
+//				Thread.sleep(1000);
 				this.waitingForFood();
-				Thread.sleep(1000);
+//				Thread.sleep(1000);
 			}
 		} catch (InterruptedException e) {
 			e.printStackTrace();
@@ -67,17 +67,22 @@ class Philosopher implements Runnable {
 					this.left_fork.status=true;
 					this.right_fork.status=true;
 					System.out.println(this.id+" Philosopher is Eating");
-					wait(1000);
-					System.out.println(this.id+" Philosopher done eating");
-					this.left_fork.status=false;
-					this.right_fork.status=false;
+					Thread.sleep(1000);
+//					System.out.println(this.id+" Philosopher done eating");
 				}
+				notify();
 	}
 	
 	synchronized void waitingForFood() throws InterruptedException{
+	
+		left_fork.status=false;
+		right_fork.status=false;
 		System.out.println(this.id+" philosopher is thinking");
-		notify();
-		System.out.println(this.id+" philosopher is done thinking");
+		if(this.left_fork.status==true && this.right_fork.status==true)
+		{
+			wait();
+		}
+//		System.out.println(this.id+" philosopher is done thinking");
 	}
 	
 }

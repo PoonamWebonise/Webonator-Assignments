@@ -1,0 +1,54 @@
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Method;
+import java.lang.reflect.Field;
+
+public class MyReflection {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Class <?> c=Demo.class;
+		Method[] allMethods=c.getDeclaredMethods();
+		for(Method eachMethod: allMethods)
+		{
+			System.out.println("method: "+eachMethod.getName());
+		}
+	
+//		Constructor<?> cons[]= c.getConstructors();
+
+		Field[] allFields=c.getDeclaredFields();
+		for(Field eachField: allFields)
+		{
+			System.out.println("variables are: "+eachField.getName());
+		}
+		
+	
+	}
+
+}
+
+class Demo {
+	
+	public int a;
+	public String b;
+	public double c;
+	
+	Demo() {
+		
+	}
+
+	Demo(int a){
+		
+	}
+	void print(){
+		
+	}
+	
+	void getValues(int a){
+		
+	}
+	
+	void getName(int x, int y){
+		
+	}
+}

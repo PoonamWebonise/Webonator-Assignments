@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="13" version="2.0">
+<workbench progressCount="18" version="2.0">
 <workbenchAdvisor/>
 <window height="767" maximized="true" width="1018" x="399" y="24">
 <fastViewData fastViewLocation="1024"/>
@@ -30,18 +30,13 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
 <editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ThreadTest.java" partName="ThreadTest.java" path="/media/webonise/Data_Drive/Webonator-Assignments/Java_Assignments/Assg_3_Threads/Threading/src/ThreadTest.java" title="ThreadTest.java" tooltip="Threading/src/ThreadTest.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Threading/src/ThreadTest.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1807" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MyReflection.java" partName="MyReflection.java" path="/media/webonise/Data_Drive/Webonator-Assignments/Java_Assignments/Assg_3_Threads/Threading/src/MyReflection.java" title="MyReflection.java" tooltip="Threading/src/MyReflection.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Threading/src/MyReflection.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="415" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1364" selectionTopPixel="732"/>
 </editor>
 </editors>
 <views>
@@ -51,7 +46,6 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Warnings (4 items)"/>
 <category IMemento.internal.id="Errors"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="566" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
@@ -106,7 +100,9 @@
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
 </viewState>
 </view>
-<view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
+<view id="org.eclipse.jdt.ui.SourceView" partName="Declaration">
+<viewState/>
+</view>
 <view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
 <viewState/>
 </view>
@@ -147,43 +143,30 @@
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="org.eclipse.ui.views.TaskList"/>
 <fastViewBars/>
-<layout>
-<mainWindow>
-<info folder="true" part="topLeft">
-<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
-<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="topLeft">&#x0A;<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.team.ccvs.ui.RepositoriesView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@399b6c69" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="topLeft">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@399b6c69" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="topLeft">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.25940594" ratioLeft="262" ratioRight="748" relationship="2" relative="topLeft"/>
-<info folder="true" part="bottomRight" ratio="0.6596386" ratioLeft="438" ratioRight="226" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.TaskList" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<info folder="true" part="bottomRight" ratio="0.6596386" ratioLeft="438" ratioRight="226" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.TaskList" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.team.ui.GenericHistoryView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="bottomLeft" ratio="0.5" ratioLeft="332" ratioRight="332" relationship="4" relative="topLeft">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<info folder="true" part="bottomLeft" ratio="0.5" ratioLeft="332" ratioRight="332" relationship="4" relative="topLeft">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
@@ -241,11 +224,11 @@
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <view id="org.eclipse.jdt.ui.PackageExplorer"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="org.eclipse.ui.views.ProblemView"/>
 <view id="org.eclipse.jdt.ui.JavadocView"/>
 <view id="org.eclipse.jdt.ui.SourceView"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
-<view id="org.eclipse.ui.views.ContentOutline"/>
 <fastViewBars/>
 <layout>
 <mainWindow>
@@ -269,30 +252,29 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.24950495" ratioLeft="252" ratioRight="758" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.7531328" ratioLeft="601" ratioRight="197" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="bottom" ratio="0.81077695" ratioLeft="647" ratioRight="151" relationship="4" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="right" ratio="0.63672185" ratioLeft="808" ratioRight="461" relationship="2" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
 <page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
-<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
-<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
-<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
+<page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
-</presentation>
-</folder>
-</info>
-<info folder="true" part="right" ratio="0.74934036" ratioLeft="568" ratioRight="190" relationship="2" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
-<page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
-<page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<part id="4"/>
 </presentation>
 </folder>
 </info>
@@ -304,158 +286,159 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Threading/src/ThreadTest.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Threading/src/TestDaemonThread2.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Threading/src/MyReflection.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Threading/src/MyReflection.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Threading/src/TestDaemonThread2.java"/>
 </editors>
 <item historyLabel="ThreadTest.java" index="0">
-<position/>
-</item>
-<item historyLabel="ThreadTest.java" index="0">
-<position/>
-</item>
-<item historyLabel="ThreadTest.java" index="0">
-<position/>
-</item>
-<item historyLabel="ThreadTest.java" index="0">
-<position/>
-</item>
-<item historyLabel="ThreadTest.java" index="0">
-<position/>
-</item>
-<item historyLabel="ThreadTest.java" index="0">
-<position/>
-</item>
-<item historyLabel="ThreadTest.java" index="0">
-<position/>
-</item>
-<item historyLabel="ThreadTest.java" index="0">
-<position/>
-</item>
-<item historyLabel="ThreadTest.java" index="0">
-<position/>
-</item>
-<item historyLabel="ThreadTest.java" index="0">
-<position/>
-</item>
-<item historyLabel="ThreadTest.java" index="0">
-<position/>
-</item>
-<item historyLabel="ThreadTest.java" index="0">
-<position/>
-</item>
-<item historyLabel="ThreadTest.java" index="0">
-<position/>
-</item>
-<item historyLabel="ThreadTest.java" index="0">
-<position/>
-</item>
-<item historyLabel="ThreadTest.java" index="0">
-<position/>
-</item>
-<item historyLabel="ThreadTest.java" index="0">
-<position/>
-</item>
-<item historyLabel="ThreadTest.java" index="0">
-<position/>
-</item>
-<item historyLabel="ThreadTest.java" index="0">
-<position/>
-</item>
-<item historyLabel="ThreadTest.java" index="0">
-<position info="not_deleted" x="1223" y="0"/>
-</item>
-<item historyLabel="ThreadTest.java" index="0">
-<position/>
-</item>
-<item historyLabel="ThreadTest.java" index="0">
-<position/>
-</item>
-<item historyLabel="ThreadTest.java" index="0">
-<position/>
-</item>
-<item historyLabel="ThreadTest.java" index="0">
-<position/>
-</item>
-<item historyLabel="ThreadTest.java" index="0">
-<position/>
-</item>
-<item historyLabel="ThreadTest.java" index="0">
-<position info="not_deleted" x="206" y="0"/>
-</item>
-<item historyLabel="ThreadTest.java" index="0">
-<position info="not_deleted" x="504" y="0"/>
-</item>
-<item historyLabel="TestDaemonThread2.java" index="1">
-<position info="not_deleted" x="445" y="0"/>
-</item>
-<item historyLabel="ThreadTest.java" index="0">
-<position info="not_deleted" x="47" y="0"/>
-</item>
-<item historyLabel="TestDaemonThread2.java" index="1">
-<position info="not_deleted" x="445" y="0"/>
-</item>
-<item historyLabel="ThreadTest.java" index="0">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="ThreadTest.java" index="0">
-<position info="not_deleted" x="947" y="437"/>
-</item>
-<item historyLabel="ThreadTest.java" index="0">
-<position info="not_deleted" x="228" y="36"/>
-</item>
-<item historyLabel="ThreadTest.java" index="0">
 <position info="not_deleted" x="1807" y="0"/>
 </item>
-<item historyLabel="TestDaemonThread2.java" index="1">
-<position info="not_deleted" x="445" y="0"/>
-</item>
-<item historyLabel="ThreadTest.java" index="0">
-<position info="not_deleted" x="1807" y="0"/>
-</item>
-<item historyLabel="MyReflection.java" index="2">
+<item historyLabel="MyReflection.java" index="1">
 <position info="not_deleted" x="34" y="0"/>
 </item>
-<item historyLabel="MyReflection.java" index="2">
+<item historyLabel="MyReflection.java" index="1">
 <position info="not_deleted" x="381" y="0"/>
+</item>
+<item historyLabel="MyReflection.java" index="1">
+<position/>
+</item>
+<item historyLabel="MyReflection.java" index="1">
+<position info="not_deleted" x="346" y="0"/>
+</item>
+<item historyLabel="MyReflection.java" index="1">
+<position info="not_deleted" x="240" y="0"/>
+</item>
+<item historyLabel="MyReflection.java" index="1">
+<position info="not_deleted" x="180" y="0"/>
+</item>
+<item historyLabel="MyReflection.java" index="1">
+<position info="not_deleted" x="254" y="0"/>
+</item>
+<item historyLabel="MyReflection.java" index="1">
+<position info="not_deleted" x="314" y="0"/>
+</item>
+<item historyLabel="MyReflection.java" index="1">
+<position info="not_deleted" x="346" y="0"/>
+</item>
+<item historyLabel="ThreadTest.java" index="0">
+<position info="not_deleted" x="1807" y="0"/>
+</item>
+<item historyLabel="MyReflection.java" index="1">
+<position info="not_deleted" x="346" y="0"/>
+</item>
+<item historyLabel="MyReflection.java" index="1">
+<position info="not_deleted" x="415" y="0"/>
+</item>
+<item historyLabel="ThreadTest.java" index="0">
+<position info="not_deleted" x="1807" y="0"/>
+</item>
+<item historyLabel="MyReflection.java" index="1">
+<position info="not_deleted" x="415" y="0"/>
+</item>
+<item historyLabel="ThreadTest.java" index="0">
+<position info="not_deleted" x="1807" y="0"/>
 </item>
 <item historyLabel="MyReflection.java" index="2">
 <position/>
 </item>
-<item historyLabel="MyReflection.java" index="2">
-<position info="not_deleted" x="346" y="0"/>
-</item>
-<item historyLabel="MyReflection.java" index="2">
-<position info="not_deleted" x="240" y="0"/>
-</item>
-<item historyLabel="MyReflection.java" index="2">
-<position info="not_deleted" x="180" y="0"/>
-</item>
-<item historyLabel="MyReflection.java" index="2">
-<position info="not_deleted" x="254" y="0"/>
-</item>
-<item historyLabel="MyReflection.java" index="2">
-<position info="not_deleted" x="314" y="0"/>
-</item>
-<item historyLabel="MyReflection.java" index="2">
-<position info="not_deleted" x="346" y="0"/>
+<item historyLabel="ThreadTest.java" index="0">
+<position/>
 </item>
 <item historyLabel="ThreadTest.java" index="0">
-<position info="not_deleted" x="1807" y="0"/>
-</item>
-<item historyLabel="MyReflection.java" index="2">
-<position info="not_deleted" x="346" y="0"/>
-</item>
-<item historyLabel="MyReflection.java" index="2">
-<position info="not_deleted" x="415" y="0"/>
+<position/>
 </item>
 <item historyLabel="ThreadTest.java" index="0">
-<position info="not_deleted" x="1807" y="0"/>
+<position info="not_deleted" x="1193" y="0"/>
 </item>
 <item historyLabel="MyReflection.java" index="2">
-<position info="not_deleted" x="415" y="0"/>
+<position/>
+</item>
+<item historyLabel="ThreadTest.java" index="0">
+<position/>
+</item>
+<item historyLabel="MyReflection.java" index="2">
+<position/>
+</item>
+<item historyLabel="ThreadTest.java" index="0">
+<position/>
+</item>
+<item historyLabel="MyReflection.java" index="2">
+<position/>
+</item>
+<item historyLabel="ThreadTest.java" index="0">
+<position/>
+</item>
+<item historyLabel="MyReflection.java" index="2">
+<position/>
+</item>
+<item historyLabel="TestDaemonThread2.java" index="3">
+<position info="not_deleted" x="445" y="0"/>
+</item>
+<item historyLabel="MyReflection.java" index="2">
+<position/>
+</item>
+<item historyLabel="ThreadTest.java" index="0">
+<position/>
+</item>
+<item historyLabel="ThreadTest.java" index="0">
+<position/>
+</item>
+<item historyLabel="ThreadTest.java" index="0">
+<position info="not_deleted" x="1712" y="0"/>
+</item>
+<item historyLabel="ThreadTest.java" index="0">
+<position/>
+</item>
+<item historyLabel="ThreadTest.java" index="0">
+<position/>
+</item>
+<item historyLabel="ThreadTest.java" index="0">
+<position/>
+</item>
+<item historyLabel="ThreadTest.java" index="0">
+<position/>
+</item>
+<item historyLabel="ThreadTest.java" index="0">
+<position/>
+</item>
+<item historyLabel="ThreadTest.java" index="0">
+<position/>
+</item>
+<item historyLabel="ThreadTest.java" index="0">
+<position/>
+</item>
+<item historyLabel="ThreadTest.java" index="0">
+<position/>
+</item>
+<item historyLabel="ThreadTest.java" index="0">
+<position info="not_deleted" x="1149" y="0"/>
+</item>
+<item historyLabel="ThreadTest.java" index="0">
+<position/>
+</item>
+<item historyLabel="ThreadTest.java" index="0">
+<position/>
+</item>
+<item historyLabel="ThreadTest.java" index="0">
+<position/>
+</item>
+<item historyLabel="ThreadTest.java" index="0">
+<position/>
+</item>
+<item historyLabel="ThreadTest.java" index="0">
+<position info="not_deleted" x="1636" y="0"/>
+</item>
+<item historyLabel="ThreadTest.java" index="0">
+<position info="not_deleted" x="1671" y="0"/>
+</item>
+<item historyLabel="ThreadTest.java" index="0">
+<position info="not_deleted" x="1364" y="0"/>
+</item>
+<item historyLabel="MyReflection.java" index="2">
+<position info="not_deleted" x="0" y="0"/>
 </item>
 <item active="true" historyLabel="ThreadTest.java" index="0">
-<position info="not_deleted" x="1807" y="0"/>
+<position info="not_deleted" x="1364" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -463,6 +446,13 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="left"/>
+</trimArea>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="right"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.editorss"/>
+</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -470,6 +460,7 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="bottom"/>
 </trimArea>
 </trimLayout>
 </window>
