@@ -1,0 +1,23 @@
+
+public class ThreadTest {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		MyThread threadobject=new MyThread();
+		threadobject.start();
+	}
+
+}
+
+class MyThread extends Thread {
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		System.out.println("Thread Started");
+	}
+	
+}

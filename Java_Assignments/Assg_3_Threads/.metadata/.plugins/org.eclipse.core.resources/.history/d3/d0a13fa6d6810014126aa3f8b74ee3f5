@@ -1,0 +1,53 @@
+
+public class ThreadTest {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Fork[] forks=new Fork[5];
+		for(int i=1;i<=5;i++)
+			forks[i].id=0;
+		
+		Philosopher p1=new Philosopher(1,forks[0],forks[4]);
+		p1.start();
+		
+		Philosopher p2=new Philosopher(2,forks[1],forks[0]);
+		p2.start();
+		
+		Philosopher p3=new Philosopher(3,forks[2],forks[1]);
+		p3.start();
+		
+		Philosopher p4=new Philosopher(4,forks[3],forks[2]);
+		p4.start();
+		
+		Philosopher p5=new Philosopher(5,forks[4],forks[3]);
+		p5.start();
+	}
+
+}
+
+class Fork {
+	int id;
+	boolean status;
+}
+
+class Philosopher extends Thread {
+
+	int id;
+	Fork left_fork,right_fork;
+	
+	Philosopher(int id, Fork left_fork, Fork right_fork)
+	{
+		this.id=id;
+		this.left_fork=left_fork;
+		this.right_fork=right_fork;
+	}
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		System.out.println("Thread Started");
+	}
+	
+}
