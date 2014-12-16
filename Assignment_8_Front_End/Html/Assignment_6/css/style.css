@@ -20,7 +20,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-.clearFix,  #navigation .phoneIcon.clearFix, .bannerListItems li.clearFix, .bannerListItems.clearFix{
+.clearFix,  #navigation .phoneIcon.clearFix, .bannerListItems.clearFix{
 	clear: both;
 	float:none;
 	width: 0;
@@ -109,7 +109,6 @@ a.login:hover{
 	color: #f58e23;
 }
 #banner {
-	/*padding-bottom: 185px;*/
 	box-shadow:0px 1px 5px 1px #e3d9d0;
 	position: relative;
 }
@@ -150,6 +149,9 @@ a.login:hover{
 	margin-left: 60px;
 	margin-right: 45px;
 	list-style-type: none;
+	font-size: 16px;
+	font-style: italic;
+	font-style: bold;
 }
 
 .bannerListItems span {
@@ -170,30 +172,36 @@ a.login:hover{
 
 .home {
 	border-radius: 5px;
-	font-size:16px;
+	font-size:20px;
 	background:no-repeat url("../images/home_icon.png") left 28px center;
-	padding: 16px 0px 16px 60px;
+	padding: 14px 0px 13px 60px;
 	background-color:#ee7700;
 	display: block;
 	width: 140px;
+	float: left;
 }
 
 .vehicle {
 	border-radius: 5px;
-	font-size:16px;
+	font-size:20px;
 	background:no-repeat url("../images/vehicle_icon.png") left 28px center;
-	padding: 16px 0px 16px 60px;
+	padding: 14px 0px 13px 60px;
 	background-color:#ee7700;
 	display: block;
 	width: 140px;
+	float: left;
 }
 
-.orCircle span{
+.orCircle {
 	height:30px;
 	width:30px;
 	border-radius: 20px;
 	background-color: #bbbbbb;
 	display: block;
+	float: left;
+	margin:10px 25px 10px 25px;
+	text-align: center;
+	line-height: 30px;
 }
 
 
@@ -251,6 +259,7 @@ a.rightSlider {
 }
 
 #content h2{
+	font-weight: normal;
 	font-size: 36px;
 	margin:67px 214px 0px 215px;
 }
